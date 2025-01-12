@@ -6658,6 +6658,16 @@
 		)
 		(uuid "6fc53906-59e7-441e-acac-cfb14f77350f")
 	)
+	(text "Valider pour 15V!"
+		(exclude_from_sim no)
+		(at 125.984 26.416 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "71d5880d-1681-4281-aa9a-aca574271513")
+	)
 	(text "PEDAL CONNECTION"
 		(exclude_from_sim no)
 		(at 409.194 153.162 0)
