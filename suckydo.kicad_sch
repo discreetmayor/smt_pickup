@@ -7143,7 +7143,7 @@
 		)
 		(uuid e8e7c80f-3056-489d-9c0d-c13a879bb936)
 	)
-	(text "Valider MOSFETs (temperature / puissance)\nRevoir IC pour timing (V5V, switch)\nLED?"
+	(text "LED?"
 		(exclude_from_sim no)
 		(at 62.484 67.31 0)
 		(effects
@@ -7233,16 +7233,6 @@
 		)
 		(uuid "840b5c6b-8a55-4961-aae5-f303bc879ac0")
 	)
-	(text "Enlever le pullup sur IO9 et utiliser la sortie du comparateur?"
-		(exclude_from_sim no)
-		(at 198.12 94.234 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "96d25993-89f5-4bb9-b1a9-980e75a3ac73")
-	)
 	(text "Boutons sur un board separe"
 		(exclude_from_sim no)
 		(at 121.92 137.922 0)
@@ -7272,16 +7262,6 @@
 			)
 		)
 		(uuid "afd9634b-d794-4e69-8df2-20fee4805fba")
-	)
-	(text "REVIEW - Don't exceed 5V on inputs?"
-		(exclude_from_sim no)
-		(at 107.95 71.374 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "b604dd9d-b407-41af-b3ca-c8db9847b161")
 	)
 	(text "Bouton ou header pour programmer?\nOu detection du voltage\n"
 		(exclude_from_sim no)
