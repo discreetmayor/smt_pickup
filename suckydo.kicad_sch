@@ -6735,6 +6735,16 @@
 	)
 	(wire
 		(pts
+			(xy 237.49 138.43) (xy 237.49 139.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "875d4a3c-3b1c-44fd-8904-b4e65d0e3fcd")
+	)
+	(wire
+		(pts
 			(xy 39.37 90.17) (xy 39.37 92.71)
 		)
 		(stroke
@@ -7305,6 +7315,16 @@
 	)
 	(wire
 		(pts
+			(xy 247.65 138.43) (xy 247.65 139.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e0977fba-2d0b-4937-8485-dee50260b7e8")
+	)
+	(wire
+		(pts
 			(xy 397.51 140.97) (xy 401.32 140.97)
 		)
 		(stroke
@@ -7651,16 +7671,6 @@
 		)
 		(uuid "0ac207e6-ab90-464c-81be-afe472ae6422")
 	)
-	(text "Ground IO9 si VBUS_SW = 5V"
-		(exclude_from_sim no)
-		(at 228.346 34.29 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "21b82d1c-9967-4e09-ba6e-846cce90b855")
-	)
 	(text "UI BOARD CONNECTOR"
 		(exclude_from_sim no)
 		(at 351.536 172.72 0)
@@ -7721,16 +7731,6 @@
 		)
 		(uuid "4fa44edf-aec0-4ca5-9f88-ddd33d2555ff")
 	)
-	(text "Valider MOSFET (temperature, puissance)"
-		(exclude_from_sim no)
-		(at 350.012 75.438 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "54f67373-5e04-4a93-910e-a49c9af0a8ef")
-	)
 	(text "USB PD"
 		(exclude_from_sim no)
 		(at 274.32 113.538 0)
@@ -7741,7 +7741,7 @@
 		)
 		(uuid "64935f95-6ae4-4e26-bae9-2ac8cda04d0b")
 	)
-	(text "1.6 ou 5V"
+	(text "1.6V or 5V"
 		(exclude_from_sim no)
 		(at 221.488 38.608 0)
 		(effects
@@ -7760,36 +7760,6 @@
 			)
 		)
 		(uuid "7e9a4dc0-8fa5-433f-a23e-2d1e0b883c0e")
-	)
-	(text "Valider MOSFET (temperature, puissance)"
-		(exclude_from_sim no)
-		(at 353.822 23.622 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "840b5c6b-8a55-4961-aae5-f303bc879ac0")
-	)
-	(text "Boutons sur un board separe"
-		(exclude_from_sim no)
-		(at 246.38 96.012 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "a4773ceb-62e1-4185-9a9a-c892edca5a0c")
-	)
-	(text "RGB LED pour status? probleme USB, 12V disabled, etc?"
-		(exclude_from_sim no)
-		(at 246.888 92.456 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "a797bdf2-9d97-4a7b-8a21-4716e8083e00")
 	)
 	(text "USB IN"
 		(exclude_from_sim no)
@@ -9787,7 +9757,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2e88d1ff-13f6-46d1-98ac-0862695743f9")
-		(property "Reference" "Pedal"
+		(property "Reference" "Pedal1"
 			(at 408.94 140.9699 0)
 			(effects
 				(font
@@ -9806,7 +9776,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TerminalBlock_TE-Connectivity:TerminalBlock_TE_282834-2_1x02_P2.54mm_Horizontal"
 			(at 406.4 140.97 0)
 			(effects
 				(font
@@ -9842,7 +9812,7 @@
 		(instances
 			(project "suckydo"
 				(path "/c6a27179-ffbf-4c43-b356-2528cb51d20d"
-					(reference "Pedal")
+					(reference "Pedal1")
 					(unit 1)
 				)
 			)
@@ -10156,7 +10126,7 @@
 				)
 			)
 		)
-		(property "Footprint" "TPS621361RGXT"
+		(property "Footprint" "Package_DFN_QFN:TPS621361RGXT"
 			(at 66.04 117.094 0)
 			(effects
 				(font
@@ -10578,7 +10548,7 @@
 	)
 	(symbol
 		(lib_id "power:+3.3V")
-		(at 247.65 139.7 0)
+		(at 247.65 138.43 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10587,7 +10557,7 @@
 		(fields_autoplaced yes)
 		(uuid "47cc8451-77ef-4ad7-b137-c9c0138b9718")
 		(property "Reference" "#PWR071"
-			(at 247.65 143.51 0)
+			(at 247.65 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10596,7 +10566,7 @@
 			)
 		)
 		(property "Value" "+3.3V"
-			(at 247.65 134.62 0)
+			(at 247.65 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10604,7 +10574,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 247.65 139.7 0)
+			(at 247.65 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10613,7 +10583,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 247.65 139.7 0)
+			(at 247.65 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10622,7 +10592,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 247.65 139.7 0)
+			(at 247.65 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11913,7 +11883,7 @@
 				)
 			)
 		)
-		(property "Footprint" "SOT95P280X110-6N"
+		(property "Footprint" "Package_TO_SOT_SMD:SOT95P280X110-6N"
 			(at 74.93 187.63 0)
 			(effects
 				(font
@@ -13900,7 +13870,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8a8d7f2e-a5cd-4088-99c9-1b10e4ef7d83")
-		(property "Reference" "Valve"
+		(property "Reference" "Valve1"
 			(at 408.94 38.0999 0)
 			(effects
 				(font
@@ -13919,7 +13889,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TerminalBlock_TE-Connectivity:TerminalBlock_TE_282834-2_1x02_P2.54mm_Horizontal"
 			(at 406.4 38.1 0)
 			(effects
 				(font
@@ -13955,7 +13925,7 @@
 		(instances
 			(project ""
 				(path "/c6a27179-ffbf-4c43-b356-2528cb51d20d"
-					(reference "Valve")
+					(reference "Valve1")
 					(unit 1)
 				)
 			)
@@ -14052,7 +14022,7 @@
 				)
 			)
 		)
-		(property "Footprint" "SOT95P275X110-5N"
+		(property "Footprint" "Package_TO_SOT_SMD:SOT95P275X110-5N"
 			(at 273.05 129.21 0)
 			(effects
 				(font
@@ -15006,7 +14976,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9b20a351-c7a6-4f08-881e-d1eff64ecded")
-		(property "Reference" "Pump"
+		(property "Reference" "Pump1"
 			(at 408.94 90.1699 0)
 			(effects
 				(font
@@ -15025,7 +14995,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TerminalBlock_TE-Connectivity:TerminalBlock_TE_282834-2_1x02_P2.54mm_Horizontal"
 			(at 406.4 90.17 0)
 			(effects
 				(font
@@ -15061,7 +15031,7 @@
 		(instances
 			(project "suckydo"
 				(path "/c6a27179-ffbf-4c43-b356-2528cb51d20d"
-					(reference "Pump")
+					(reference "Pump1")
 					(unit 1)
 				)
 			)
@@ -16173,7 +16143,7 @@
 	)
 	(symbol
 		(lib_id "power:+3.3V")
-		(at 237.49 139.7 0)
+		(at 237.49 138.43 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -16182,7 +16152,7 @@
 		(fields_autoplaced yes)
 		(uuid "c0ed862a-9e83-4cb0-9e88-b9e09da4e0b6")
 		(property "Reference" "#PWR070"
-			(at 237.49 143.51 0)
+			(at 237.49 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16191,7 +16161,7 @@
 			)
 		)
 		(property "Value" "+3.3V"
-			(at 237.49 134.62 0)
+			(at 237.49 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16199,7 +16169,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 237.49 139.7 0)
+			(at 237.49 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16208,7 +16178,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 237.49 139.7 0)
+			(at 237.49 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16217,7 +16187,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 237.49 139.7 0)
+			(at 237.49 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16981,7 +16951,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "AP33771CFBZ13FA01"
+		(property "Footprint" "Package_DFN_QFN:AP33771CFBZ13FA01"
 			(at 189.23 158.42 0)
 			(effects
 				(font
