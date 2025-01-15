@@ -1159,168 +1159,6 @@
 				)
 			)
 		)
-		(symbol "Diode:1N4148"
-			(pin_numbers hide)
-			(pin_names hide)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "D"
-				(at 0 2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "1N4148"
-				(at 0 -2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "100V 0.15A standard switching diode, DO-35"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Sim.Device" "D"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Sim.Pins" "1=K 2=A"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "diode"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "D*DO?35*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "1N4148_0_1"
-				(polyline
-					(pts
-						(xy -1.27 1.27) (xy -1.27 -1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 0) (xy -1.27 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 1.27) (xy 1.27 -1.27) (xy -1.27 0) (xy 1.27 1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "1N4148_1_1"
-				(pin passive line
-					(at -3.81 0 0)
-					(length 2.54)
-					(name "K"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 3.81 0 180)
-					(length 2.54)
-					(name "A"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
 		(symbol "Diode:SMF40A"
 			(pin_numbers hide)
 			(pin_names
@@ -1438,6 +1276,151 @@
 					(at 3.81 0 180)
 					(length 2.54)
 					(name "A2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "Diode:SS210"
+			(pin_numbers hide)
+			(pin_names
+				(offset 1.016) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "D"
+				(at 0 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "SS210"
+				(at 0 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "Diode_SMD:D_SMA"
+				(at 0 -4.445 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.wontop.com/uploadfiles/56/sort_excel/pdf/ss22.pdf"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "100V 2A Schottky Diode, SMA"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "diode Schottky"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "D*SMA*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "SS210_0_1"
+				(polyline
+					(pts
+						(xy 1.27 0) (xy -1.27 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 1.27) (xy 1.27 -1.27) (xy -1.27 0) (xy 1.27 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.905 0.635) (xy -1.905 1.27) (xy -1.27 1.27) (xy -1.27 -1.27) (xy -0.635 -1.27) (xy -0.635 -0.635)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "SS210_1_1"
+				(pin passive line
+					(at -3.81 0 0)
+					(length 2.54)
+					(name "K"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 0 180)
+					(length 2.54)
+					(name "A"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -5071,6 +5054,12 @@
 		(uuid "033b4bde-a70a-49bd-9881-4610c2f31f72")
 	)
 	(junction
+		(at 383.54 27.94)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0503e75c-7a98-4f5a-8d5a-5a7b6597b172")
+	)
+	(junction
 		(at 168.91 181.61)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5119,12 +5108,6 @@
 		(uuid "2343b18e-f8a1-4484-89dc-e54ec179f5c8")
 	)
 	(junction
-		(at 386.08 87.63)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "25e4f11e-92de-4897-806c-5449f3f6591d")
-	)
-	(junction
 		(at 308.61 96.52)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5155,6 +5138,12 @@
 		(uuid "363633fc-d32d-436f-bcf7-2598496cc501")
 	)
 	(junction
+		(at 386.08 95.25)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "370ef769-936e-428e-871c-ef10bbf83e19")
+	)
+	(junction
 		(at 391.16 95.25)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5179,12 +5168,6 @@
 		(uuid "4e4ce110-b526-425e-932a-59cdeb28082e")
 	)
 	(junction
-		(at 106.68 82.55)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "4faf7da4-2ddd-4484-a3c3-32e3336190e3")
-	)
-	(junction
 		(at 223.52 161.29)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5201,6 +5184,18 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "5d54031d-947a-4190-a31c-04e68810b6df")
+	)
+	(junction
+		(at 386.08 87.63)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5e5847f9-e005-443b-a537-984a06fa461f")
+	)
+	(junction
+		(at 118.11 93.98)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "656f9c8d-777d-48ff-86cf-0b774742da7d")
 	)
 	(junction
 		(at 38.1 82.55)
@@ -5293,12 +5288,6 @@
 		(uuid "9a1cee0d-b249-436a-86b9-0ea7a1782cde")
 	)
 	(junction
-		(at 383.54 27.94)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "9ae6cf8b-53c1-4501-b100-8c304635b12e")
-	)
-	(junction
 		(at 223.52 173.99)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5309,12 +5298,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "9e9c68a6-5d42-4a79-ba09-23a03bcf8059")
-	)
-	(junction
-		(at 386.08 95.25)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "9f0ffe2f-043b-49df-af77-f398668e9ff5")
 	)
 	(junction
 		(at 223.52 194.31)
@@ -5347,6 +5330,12 @@
 		(uuid "ad6d07ee-b85e-4986-84f0-fe12ade79d15")
 	)
 	(junction
+		(at 383.54 35.56)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b2070102-9977-47e5-aecd-b5d4a4007aa2")
+	)
+	(junction
 		(at 223.52 171.45)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5363,12 +5352,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b919c49a-228a-4963-8af3-27b05499541a")
-	)
-	(junction
-		(at 118.11 92.71)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "bc41df6d-fc23-4937-ae1a-15ecb72b840d")
 	)
 	(junction
 		(at 76.2 82.55)
@@ -5389,12 +5372,6 @@
 		(uuid "cb0c072f-db2a-4c47-b929-287fd55a2b25")
 	)
 	(junction
-		(at 383.54 35.56)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "cf207b70-1903-4156-b0e4-c9723ffcf543")
-	)
-	(junction
 		(at 223.52 158.75)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5411,6 +5388,18 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e0df52ab-c1f7-4e57-9a0a-d1317d301669")
+	)
+	(junction
+		(at 111.76 93.98)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e6e503b2-acbf-40fa-92b2-688eb9d5980c")
+	)
+	(junction
+		(at 104.14 82.55)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ea2148d2-83b5-4e7a-ad2c-799993bf78d6")
 	)
 	(junction
 		(at 153.67 163.83)
@@ -5563,6 +5552,16 @@
 			(type default)
 		)
 		(uuid "07e6c716-48d3-4e96-9595-cc8878e6ef03")
+	)
+	(wire
+		(pts
+			(xy 118.11 95.25) (xy 118.11 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "081f5ade-153b-4ce0-8ad4-f6ced1756cb2")
 	)
 	(wire
 		(pts
@@ -5813,16 +5812,6 @@
 			(type default)
 		)
 		(uuid "37e4ac3e-e844-47ea-b94e-76ff761e24cc")
-	)
-	(wire
-		(pts
-			(xy 118.11 82.55) (xy 106.68 82.55)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "382ca5fd-5a80-482b-a647-350101cf1480")
 	)
 	(wire
 		(pts
@@ -6146,6 +6135,16 @@
 	)
 	(wire
 		(pts
+			(xy 111.76 93.98) (xy 118.11 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6d1fda72-2032-4cca-adbf-00c8220aebaa")
+	)
+	(wire
+		(pts
 			(xy 50.8 36.83) (xy 55.88 36.83)
 		)
 		(stroke
@@ -6166,7 +6165,7 @@
 	)
 	(wire
 		(pts
-			(xy 91.44 82.55) (xy 106.68 82.55)
+			(xy 91.44 82.55) (xy 104.14 82.55)
 		)
 		(stroke
 			(width 0)
@@ -6366,16 +6365,6 @@
 	)
 	(wire
 		(pts
-			(xy 114.3 92.71) (xy 118.11 92.71)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8953be3e-3d74-48a3-acac-ce1b6143ffc8")
-	)
-	(wire
-		(pts
 			(xy 173.99 207.01) (xy 182.88 207.01)
 		)
 		(stroke
@@ -6393,6 +6382,16 @@
 			(type default)
 		)
 		(uuid "8bbbab1a-8e0c-4c7e-84a4-3ecfd719f62f")
+	)
+	(wire
+		(pts
+			(xy 111.76 102.87) (xy 111.76 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8bf835f5-6765-4509-a82e-e18fc4b9d355")
 	)
 	(wire
 		(pts
@@ -6663,6 +6662,16 @@
 			(type default)
 		)
 		(uuid "bc1c4cbe-68b9-4ca1-8fd5-5cff35bc1c3b")
+	)
+	(wire
+		(pts
+			(xy 104.14 82.55) (xy 118.11 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bc68e4d1-e8f6-4569-aca5-b8c5c23ed960")
 	)
 	(wire
 		(pts
@@ -6956,7 +6965,7 @@
 	)
 	(wire
 		(pts
-			(xy 118.11 92.71) (xy 118.11 87.63)
+			(xy 118.11 93.98) (xy 118.11 87.63)
 		)
 		(stroke
 			(width 0)
@@ -7204,7 +7213,7 @@
 		)
 		(uuid "54f67373-5e04-4a93-910e-a49c9af0a8ef")
 	)
-	(text "2.5V ou 7.5V"
+	(text "1.6 ou 5V"
 		(exclude_from_sim no)
 		(at 97.028 80.518 0)
 		(effects
@@ -7236,7 +7245,7 @@
 	)
 	(text "Boutons sur un board separe"
 		(exclude_from_sim no)
-		(at 124.714 143.002 0)
+		(at 121.92 137.922 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7263,6 +7272,16 @@
 			)
 		)
 		(uuid "afd9634b-d794-4e69-8df2-20fee4805fba")
+	)
+	(text "REVIEW - Don't exceed 5V on inputs?"
+		(exclude_from_sim no)
+		(at 107.95 71.374 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "b604dd9d-b407-41af-b3ca-c8db9847b161")
 	)
 	(text "Bouton ou header pour programmer?\nOu detection du voltage\n"
 		(exclude_from_sim no)
@@ -7938,6 +7957,76 @@
 	)
 	(symbol
 		(lib_id "Device:R")
+		(at 111.76 90.17 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0d5565ab-7f66-4ca4-9c06-3ccfec4c3bac")
+		(property "Reference" "R32"
+			(at 114.3 88.8999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "47k"
+			(at 114.3 91.4399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+			(at 109.982 90.17 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 111.76 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 111.76 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "ca739c81-8aa4-4436-a621-eeb605a4e8a0")
+		)
+		(pin "1"
+			(uuid "5c93a1ce-4dbf-4121-9da9-fe061f48a447")
+		)
+		(instances
+			(project "suckydo"
+				(path "/c6a27179-ffbf-4c43-b356-2528cb51d20d"
+					(reference "R32")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
 		(at 317.5 33.02 180)
 		(unit 1)
 		(exclude_from_sim no)
@@ -8081,94 +8170,6 @@
 			(project "suckydo"
 				(path "/c6a27179-ffbf-4c43-b356-2528cb51d20d"
 					(reference "D3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Diode:1N4148")
-		(at 383.54 31.75 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "1319bec5-9f2d-4c88-b073-45ecd95ae635")
-		(property "Reference" "D1"
-			(at 381 30.4799 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "1N4148"
-			(at 381 33.0199 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Diode_SMD:D_SOD-123"
-			(at 383.54 31.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf"
-			(at 383.54 31.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "100V 0.15A standard switching diode, DO-35"
-			(at 383.54 31.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" "D"
-			(at 383.54 31.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 383.54 31.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "110d0cd7-6c00-473e-80aa-934141d55533")
-		)
-		(pin "1"
-			(uuid "ad854218-1208-48bf-9f06-b8af5bb7e894")
-		)
-		(instances
-			(project "suckydo"
-				(path "/c6a27179-ffbf-4c43-b356-2528cb51d20d"
-					(reference "D1")
 					(unit 1)
 				)
 			)
@@ -8609,17 +8610,17 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+5V")
-		(at 114.3 92.71 0)
+		(lib_id "power:GND")
+		(at 111.76 102.87 0)
+		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "27e9e11f-5488-4838-815e-8908a33e3094")
-		(property "Reference" "#PWR040"
-			(at 114.3 96.52 0)
+		(uuid "2773228f-67a7-4221-9463-32306adc9db3")
+		(property "Reference" "#PWR067"
+			(at 111.76 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8627,8 +8628,8 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+5V"
-			(at 114.3 87.63 0)
+		(property "Value" "GND"
+			(at 111.76 107.315 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8636,7 +8637,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 114.3 92.71 0)
+			(at 111.76 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8645,7 +8646,73 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 114.3 92.71 0)
+			(at 111.76 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 111.76 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e92ce2a9-b8b1-4e6f-8c27-a8c2afd207e7")
+		)
+		(instances
+			(project "suckydo"
+				(path "/c6a27179-ffbf-4c43-b356-2528cb51d20d"
+					(reference "#PWR067")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 111.76 86.36 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "27e9e11f-5488-4838-815e-8908a33e3094")
+		(property "Reference" "#PWR040"
+			(at 111.76 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 111.76 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 111.76 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 111.76 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8654,7 +8721,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 114.3 92.71 0)
+			(at 111.76 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9251,7 +9318,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "47k"
+		(property "Value" "23.2K"
 			(at 88.9 87.6299 0)
 			(effects
 				(font
@@ -10807,7 +10874,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 106.68 90.17 0)
+		(at 104.14 90.17 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -10816,7 +10883,7 @@
 		(dnp no)
 		(uuid "6086e8ec-3f97-4bd9-8716-08cbc34bd0b3")
 		(property "Reference" "#PWR041"
-			(at 106.68 96.52 0)
+			(at 104.14 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10825,7 +10892,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 106.68 94.615 0)
+			(at 104.14 94.615 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10833,7 +10900,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 106.68 90.17 0)
+			(at 104.14 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10842,7 +10909,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 106.68 90.17 0)
+			(at 104.14 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10851,7 +10918,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 106.68 90.17 0)
+			(at 104.14 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12491,16 +12558,15 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 118.11 96.52 0)
+		(at 118.11 99.06 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "80839a47-a5b6-46bc-8952-d6f51a3623ce")
 		(property "Reference" "C9"
-			(at 114.3 95.2499 0)
+			(at 125.222 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12509,7 +12575,7 @@
 			)
 		)
 		(property "Value" "100n"
-			(at 114.3 97.7899 0)
+			(at 125.222 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12518,7 +12584,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
-			(at 119.0752 100.33 0)
+			(at 119.0752 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12527,7 +12593,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 118.11 96.52 0)
+			(at 118.11 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12536,7 +12602,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 118.11 96.52 0)
+			(at 118.11 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12545,7 +12611,7 @@
 			)
 		)
 		(property "Part" ""
-			(at 118.11 96.52 0)
+			(at 118.11 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13342,7 +13408,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 106.68 86.36 0)
+		(at 104.14 86.36 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -13351,7 +13417,7 @@
 		(fields_autoplaced yes)
 		(uuid "8d88b72e-cdd3-457c-902c-49d9250d08a7")
 		(property "Reference" "C8"
-			(at 102.87 85.0899 0)
+			(at 100.33 85.0899 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13360,7 +13426,7 @@
 			)
 		)
 		(property "Value" "100n"
-			(at 102.87 87.6299 0)
+			(at 100.33 87.6299 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13369,7 +13435,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
-			(at 107.6452 90.17 0)
+			(at 105.1052 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13378,7 +13444,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 106.68 86.36 0)
+			(at 104.14 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13387,7 +13453,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 106.68 86.36 0)
+			(at 104.14 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13396,7 +13462,7 @@
 			)
 		)
 		(property "Part" ""
-			(at 106.68 86.36 0)
+			(at 104.14 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13698,7 +13764,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 118.11 100.33 0)
+		(at 118.11 102.87 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -13707,7 +13773,7 @@
 		(dnp no)
 		(uuid "941e388d-4722-41cf-b139-8157b42ab0d5")
 		(property "Reference" "#PWR042"
-			(at 118.11 106.68 0)
+			(at 118.11 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13716,7 +13782,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 118.11 104.775 0)
+			(at 118.11 107.315 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13724,7 +13790,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 118.11 100.33 0)
+			(at 118.11 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13733,7 +13799,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 118.11 100.33 0)
+			(at 118.11 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13742,7 +13808,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 118.11 100.33 0)
+			(at 118.11 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16619,6 +16685,76 @@
 	)
 	(symbol
 		(lib_id "Device:R")
+		(at 111.76 97.79 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e25a518c-aa3e-4ae4-a67a-2cd584763036")
+		(property "Reference" "R33"
+			(at 114.3 96.5199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "47k"
+			(at 114.3 99.0599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+			(at 109.982 97.79 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 111.76 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 111.76 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "ec2e187e-30e5-429c-a90b-fa890f580a75")
+		)
+		(pin "1"
+			(uuid "1e155939-a86d-40c9-819d-a990ec67ec42")
+		)
+		(instances
+			(project "suckydo"
+				(path "/c6a27179-ffbf-4c43-b356-2528cb51d20d"
+					(reference "R33")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
 		(at 227.33 43.18 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -16795,7 +16931,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "e594aed4-e2e3-4eb8-87dc-d12e21da4dc9")
 		(property "Reference" "#PWR029"
 			(at 55.88 50.8 0)
@@ -16807,7 +16942,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 55.88 49.53 0)
+			(at 55.88 48.768 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16986,6 +17121,75 @@
 		)
 	)
 	(symbol
+		(lib_id "Diode:SS210")
+		(at 383.54 31.75 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "e865d84f-7a0e-41ef-af3c-e8c79e5bca7b")
+		(property "Reference" "D5"
+			(at 375.158 30.226 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "SS210"
+			(at 375.158 32.766 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SMA"
+			(at 379.095 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.wontop.com/uploadfiles/56/sort_excel/pdf/ss22.pdf"
+			(at 383.54 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "100V 2A Schottky Diode, SMA"
+			(at 383.54 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "0760ae2f-afda-40d2-9918-fed5011dae4b")
+		)
+		(pin "1"
+			(uuid "71b8d0ad-809a-470e-a1b6-add1031349c8")
+		)
+		(instances
+			(project "suckydo"
+				(path "/c6a27179-ffbf-4c43-b356-2528cb51d20d"
+					(reference "D5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 50.8 44.45 0)
 		(unit 1)
@@ -16993,7 +17197,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "e8bb93ce-e983-45bb-91c6-4e6db15506a2")
 		(property "Reference" "#PWR022"
 			(at 50.8 50.8 0)
@@ -17111,94 +17314,6 @@
 			(project "suckydo"
 				(path "/c6a27179-ffbf-4c43-b356-2528cb51d20d"
 					(reference "#PWR016")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Diode:1N4148")
-		(at 386.08 91.44 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "ec73390f-6c0e-4b32-9d38-e62a90c92eb9")
-		(property "Reference" "D5"
-			(at 383.54 90.1699 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "1N4148"
-			(at 383.54 92.7099 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Diode_SMD:D_SOD-123"
-			(at 386.08 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf"
-			(at 386.08 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "100V 0.15A standard switching diode, DO-35"
-			(at 386.08 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" "D"
-			(at 386.08 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 386.08 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "d86178e6-5187-4bf4-91d3-25cede522457")
-		)
-		(pin "1"
-			(uuid "e4d714f3-4ef2-492b-81e2-f06437f27682")
-		)
-		(instances
-			(project "suckydo"
-				(path "/c6a27179-ffbf-4c43-b356-2528cb51d20d"
-					(reference "D5")
 					(unit 1)
 				)
 			)
@@ -17335,6 +17450,75 @@
 			(project "suckydo"
 				(path "/c6a27179-ffbf-4c43-b356-2528cb51d20d"
 					(reference "R24")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:SS210")
+		(at 386.08 91.44 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "f1161d70-c603-4250-b862-d3113acb775b")
+		(property "Reference" "D1"
+			(at 377.698 89.916 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "SS210"
+			(at 377.698 92.456 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SMA"
+			(at 381.635 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.wontop.com/uploadfiles/56/sort_excel/pdf/ss22.pdf"
+			(at 386.08 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "100V 2A Schottky Diode, SMA"
+			(at 386.08 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "93f4d658-6b9b-4e64-b888-7d8f87829b74")
+		)
+		(pin "1"
+			(uuid "58c8c6aa-6978-4373-a1da-1db9a0510c0a")
+		)
+		(instances
+			(project ""
+				(path "/c6a27179-ffbf-4c43-b356-2528cb51d20d"
+					(reference "D1")
 					(unit 1)
 				)
 			)
@@ -17800,7 +17984,7 @@
 				)
 			)
 		)
-		(property "Value" "L"
+		(property "Value" "3.3u"
 			(at 220.98 29.21 90)
 			(effects
 				(font
